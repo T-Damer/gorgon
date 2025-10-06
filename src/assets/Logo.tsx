@@ -9,9 +9,13 @@ export default function Logo() {
       className="flex cursor-pointer gap-2 font-bold text-black text-xl transition-opacity hover:opacity-80"
       onClick={() => navigate('/select')}
     >
-      <span className="flex aspect-square rounded-full bg-white/50 p-3 text-xl backdrop-blur-2xl">
-        <img src="img/gorgon.png" alt="logo" width={32} height={32} />
-      </span>
+      <img
+        src="img/gorgon.png"
+        alt="logo"
+        width={32}
+        height={32}
+        className="cursor-pointer"
+      />
     </div>
   )
 }

@@ -22,7 +22,7 @@ export default defineConfig({
     svgr(),
     isDev && componentTagger(),
   ],
-  base: '/tulip/',
+  base: '/gorgon/',
   build: {
     rollupOptions: {
       plugins: [

@@ -1,8 +1,8 @@
 {
-  "name": "tulip",
+  "name": "gorgon",
   "version": "1.0.0",
   "license": "MIT",
-  "homepage": "https://t-damer.github.io/tulip",
+  "homepage": "https://t-damer.github.io/gorgon",
   "type": "module",
   "scripts": {
     "start": "vite",

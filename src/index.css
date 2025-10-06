@@ -2,8 +2,8 @@
 @plugin 'daisyui';
 
 @theme {
-  --color-accent: #FD62C7;
-  --color-selection: #EFC9F7;
+  --color-accent: #fd62c7;
+  --color-selection: #efc9f7;
 
   --font-sans: "Nunito", sans-serif;
 
@@ -28,7 +28,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 a:hover {
   background: var(--color-selection);
   color: white;
@@ -39,7 +38,6 @@ a:hover {
 a[target="_blank"]:after {
   content: " ↗";
 }
-
 
 span {
   text-decoration: underline wavy transparent;

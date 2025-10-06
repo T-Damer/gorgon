@@ -16,12 +16,11 @@ export default function MainPage() {
       <Header />
       <div className="flex h-full flex-col items-center justify-center gap-8 p-2 md:flex-row">
         <Card className="text-center text-black">
-          <h1 className="font-black text-2xl">Тюльпан</h1>
+          <h1 className="font-black text-2xl">Горгона</h1>
           <p>
             <Trans>
               Это виртуальный акушерский консультант, который поможет вам
-              определить риски акушерского кровотечения, а врачам предложит план
-              лечения.
+              определить риски развития гиперплазии эндометрия.
             </Trans>
           </p>
         </Card>

@@ -3315,6 +3315,49 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gorgon@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "gorgon@workspace:."
+  dependencies:
+    "@biomejs/biome": "npm:2.0.0"
+    "@formkit/auto-animate": "npm:^0.8.2"
+    "@lingui/babel-plugin-extract-messages": "npm:^5.3.2"
+    "@lingui/babel-plugin-lingui-macro": "npm:^5.3.2"
+    "@lingui/cli": "npm:^5.3.2"
+    "@lingui/core": "npm:^5.3.2"
+    "@lingui/react": "npm:^5.3.2"
+    "@lingui/vite-plugin": "npm:^5.3.2"
+    "@tailwindcss/typography": "npm:^0.5.16"
+    "@tailwindcss/vite": "npm:^4.1.5"
+    "@types/file-saver": "npm:^2"
+    "@types/node": "npm:^22.13.5"
+    "@types/react": "npm:^19"
+    "@types/react-dom": "npm:^19"
+    "@vitejs/plugin-react": "npm:^4.4.1"
+    autoprefixer: "npm:^10.4.20"
+    clsx: "npm:^2.1.1"
+    cross-env: "npm:^7.0.3"
+    daisyui: "npm:^5.0.46"
+    file-saver: "npm:^2.0.5"
+    framer-motion: "npm:^12.9.4"
+    jotai: "npm:^2.12.1"
+    lovable-tagger: "npm:^1.1.8"
+    react: "npm:^19.1.0"
+    react-dom: "npm:^19.1.0"
+    react-router: "npm:^7.5.3"
+    rollup-plugin-visualizer: "npm:^5.14.0"
+    swiper: "npm:^11.2.10"
+    tailwind-merge: "npm:^3.3.0"
+    tailwindcss: "npm:^4.1.5"
+    ts-node: "npm:^10.9.2"
+    typescript: "npm:^5.7.3"
+    vite: "npm:^6.1.1"
+    vite-plugin-svgr: "npm:^4.3.0"
+    vite-tsconfig-paths: "npm:^5.1.4"
+    xlsx: "npm:^0.18.5"
+  languageName: unknown
+  linkType: soft
+
 "graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6":
   version: 4.2.11
   resolution: "graceful-fs@npm:4.2.11"
@@ -5302,49 +5345,6 @@ __metadata:
   checksum: 10c0/9c4759110a19c53f992d9aae23aac5ced636e99887b51b9e61def52611732872ff7668757d4e4c61f19691e36f4da981cd9485e869b4a7408d689f6bf1f14e62
   languageName: node
   linkType: hard
-
-"tulip@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "tulip@workspace:."
-  dependencies:
-    "@biomejs/biome": "npm:2.0.0"
-    "@formkit/auto-animate": "npm:^0.8.2"
-    "@lingui/babel-plugin-extract-messages": "npm:^5.3.2"
-    "@lingui/babel-plugin-lingui-macro": "npm:^5.3.2"
-    "@lingui/cli": "npm:^5.3.2"
-    "@lingui/core": "npm:^5.3.2"
-    "@lingui/react": "npm:^5.3.2"
-    "@lingui/vite-plugin": "npm:^5.3.2"
-    "@tailwindcss/typography": "npm:^0.5.16"
-    "@tailwindcss/vite": "npm:^4.1.5"
-    "@types/file-saver": "npm:^2"
-    "@types/node": "npm:^22.13.5"
-    "@types/react": "npm:^19"
-    "@types/react-dom": "npm:^19"
-    "@vitejs/plugin-react": "npm:^4.4.1"
-    autoprefixer: "npm:^10.4.20"
-    clsx: "npm:^2.1.1"
-    cross-env: "npm:^7.0.3"
-    daisyui: "npm:^5.0.46"
-    file-saver: "npm:^2.0.5"
-    framer-motion: "npm:^12.9.4"
-    jotai: "npm:^2.12.1"
-    lovable-tagger: "npm:^1.1.8"
-    react: "npm:^19.1.0"
-    react-dom: "npm:^19.1.0"
-    react-router: "npm:^7.5.3"
-    rollup-plugin-visualizer: "npm:^5.14.0"
-    swiper: "npm:^11.2.10"
-    tailwind-merge: "npm:^3.3.0"
-    tailwindcss: "npm:^4.1.5"
-    ts-node: "npm:^10.9.2"
-    typescript: "npm:^5.7.3"
-    vite: "npm:^6.1.1"
-    vite-plugin-svgr: "npm:^4.3.0"
-    vite-tsconfig-paths: "npm:^5.1.4"
-    xlsx: "npm:^0.18.5"
-  languageName: unknown
-  linkType: soft
 
 "turbo-stream@npm:2.4.0":
   version: 2.4.0

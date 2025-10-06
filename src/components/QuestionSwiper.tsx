@@ -65,7 +65,7 @@ export default function QuestionSwiper() {
         <SwiperSlide key={index} className="w-full rounded-md bg-white p-8">
           <QuestionCard
             selectedAnswerId={
-              atom.find((a) => a.questionId === index)?.answerId
+              atom?.find((a) => a.questionId === index)?.answerId
             }
             question={question}
             showBackButton={index > 0}

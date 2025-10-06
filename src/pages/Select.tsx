@@ -19,8 +19,8 @@ export default function MainPage() {
           <h1 className="font-black text-2xl">Горгона</h1>
           <p>
             <Trans>
-              Это виртуальный акушерский консультант, который поможет вам
-              определить риски развития гиперплазии эндометрия.
+              Виртуальная анкета для оценки степени риска развития гиперплазии
+              эндометрия и эндометриоидной интраэпителиальной неоплазии
             </Trans>
           </p>
         </Card>
@@ -32,16 +32,7 @@ export default function MainPage() {
             navigate('/questions')
           }}
         >
-          {t`Врач`}
-        </Card>
-        <Card
-          className="items-center justify-center font-bold text-2xl text-black transition-all hover:scale-105 hover:bg-slate-200 active:scale-110"
-          onClick={() => {
-            setIsDoc(false)
-            navigate('/questions')
-          }}
-        >
-          {t`Пациент`}
+          {t`Пройти анкету`}
         </Card>
       </div>
     </TransitionWrapper>

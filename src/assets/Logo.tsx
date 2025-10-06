@@ -10,7 +10,7 @@ export default function Logo() {
       onClick={() => navigate('/select')}
     >
       <span className="flex aspect-square rounded-full bg-white/50 p-3 text-xl backdrop-blur-2xl">
-        <img src="img/gorgon.png" alt="logo" width={24} height={24} />
+        <img src="img/gorgon.png" alt="logo" width={32} height={32} />
       </span>
     </div>
   )

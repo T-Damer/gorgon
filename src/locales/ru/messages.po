@@ -22,8 +22,19 @@ msgstr ""
 #: src/helpers/hooks/useResult.ts:32
 #: src/helpers/hooks/useResult.ts:38
 #: src/helpers/hooks/useResult.ts:39
-msgid "/+Z5u4"
-msgstr ""
+#~ msgid "/+Z5u4"
+#~ msgstr ""
+
+#: src/helpers/hooks/useResult.ts:17
+#: src/helpers/hooks/useResult.ts:18
+#: src/helpers/hooks/useResult.ts:24
+#: src/helpers/hooks/useResult.ts:25
+#: src/helpers/hooks/useResult.ts:31
+#: src/helpers/hooks/useResult.ts:32
+#: src/helpers/hooks/useResult.ts:38
+#: src/helpers/hooks/useResult.ts:39
+msgid "-"
+msgstr "-"
 
 #: src/helpers/hooks/useQuestions.tsx:45
 msgid "17,0 - 24,9"

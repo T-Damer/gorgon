@@ -22,12 +22,23 @@ msgstr ""
 #: src/helpers/hooks/useResult.ts:32
 #: src/helpers/hooks/useResult.ts:38
 #: src/helpers/hooks/useResult.ts:39
-msgid "/+Z5u4"
-msgstr "/+Z5u4"
+#~ msgid "/+Z5u4"
+#~ msgstr "/+Z5u4"
 
 #: src/types/Question.ts:25
 #~ msgid " Менее 69,0 г/л"
 #~ msgstr "Less than 69,0 g/l"
+
+#: src/helpers/hooks/useResult.ts:17
+#: src/helpers/hooks/useResult.ts:18
+#: src/helpers/hooks/useResult.ts:24
+#: src/helpers/hooks/useResult.ts:25
+#: src/helpers/hooks/useResult.ts:31
+#: src/helpers/hooks/useResult.ts:32
+#: src/helpers/hooks/useResult.ts:38
+#: src/helpers/hooks/useResult.ts:39
+msgid "-"
+msgstr ""
 
 #: src/helpers/hooks/useQuestions.tsx:45
 msgid "17,0 - 24,9"

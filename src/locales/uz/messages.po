@@ -13,6 +13,18 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#. js-lingui-explicit-id
+#: src/helpers/hooks/useResult.ts:17
+#: src/helpers/hooks/useResult.ts:18
+#: src/helpers/hooks/useResult.ts:24
+#: src/helpers/hooks/useResult.ts:25
+#: src/helpers/hooks/useResult.ts:31
+#: src/helpers/hooks/useResult.ts:32
+#: src/helpers/hooks/useResult.ts:38
+#: src/helpers/hooks/useResult.ts:39
+msgid "/+Z5u4"
+msgstr ""
+
 #: src/types/Question.ts:25
 #~ msgid " Менее 69,0 г/л"
 #~ msgstr " 69,0 g/l dan kam"
@@ -78,8 +90,8 @@ msgstr ""
 
 #: src/helpers/hooks/useResult.ts:17
 #: src/helpers/hooks/useResult.ts:38
-msgid "Акушерская тактика по ведению беременности и план родов выбирается исходя из акушерской ситуации и состояния плода. Необходим тщательный клинико-лабораторный мониторинг с применением профилактических мероприятий (лечение анемии легкой степени, витаминно-микронутриентная терапия, санация инфекционных очагов, профилактика  возможных гестационных осложнений."
-msgstr "Homiladorlikni boshqarish bo‘yicha akusherlik taktikasi va tug‘ilish rejasi akusherlik holati va homilaning holatidan kelib chiqqan holda tanlanadi. Profilaktik choralarni qo‘llagan holda diqqat bilan klinik va laboratoriya monitoringini o‘tkazish zarur (engil anemiyani davolash, vitamin va mikronutrient terapiyasi, yuqumli o‘choqlarni sanitariya qilish, homiladorlikning mumkin bo‘lgan asoratlarining oldini olish."
+#~ msgid "Акушерская тактика по ведению беременности и план родов выбирается исходя из акушерской ситуации и состояния плода. Необходим тщательный клинико-лабораторный мониторинг с применением профилактических мероприятий (лечение анемии легкой степени, витаминно-микронутриентная терапия, санация инфекционных очагов, профилактика  возможных гестационных осложнений."
+#~ msgstr "Homiladorlikni boshqarish bo‘yicha akusherlik taktikasi va tug‘ilish rejasi akusherlik holati va homilaning holatidan kelib chiqqan holda tanlanadi. Profilaktik choralarni qo‘llagan holda diqqat bilan klinik va laboratoriya monitoringini o‘tkazish zarur (engil anemiyani davolash, vitamin va mikronutrient terapiyasi, yuqumli o‘choqlarni sanitariya qilish, homiladorlikning mumkin bo‘lgan asoratlarining oldini olish."
 
 #: src/helpers/hooks/useQuestions.tsx:72
 msgid "Артериальная гипертензия, гипертоническая болезнь"
@@ -102,8 +114,8 @@ msgstr ""
 #~ msgstr "O'ktir endotelial disfunksiya belgilari bilan"
 
 #: src/helpers/hooks/useResult.ts:31
-msgid "Беременные с такой суммой баллов по факторам риска  должны находиться под особым диспансерным наблюдением в специально сформированной  группе.  Необходимо проведение усиленного лабораторного мониторинга, лечение в стационаре в критических  сроках беременности (госпитализация не менее 4-5 раз), проведение лечения основных заболеваний и осложнений гестации с участием узких специалистов и для решения вопроса об акушерской тактике.  План родов выбирается в зависимости от акушерской ситуации, однако, более предпочтительно оперативное родоразрешение путем кесарева сечения."
-msgstr "Xavf omillari bo'yicha bunday ballga ega bo'lgan homilador ayollar maxsus tuzilgan guruhda maxsus dispanser kuzatuvida bo'lishi kerak. Kuchli laboratoriya monitoringini o'tkazish, homiladorlikning muhim bosqichlarida statsionar davolanish (kamida 4-5 marta kasalxonaga yotqizish), asosiy kasalliklar va homiladorlik asoratlarini tor mutaxassislar ishtirokida davolash va akusherlik holatiga qarab tanlangan tug'ilish muammosini hal qilish kerak. Biroq, sezaryen bilan jarrohlik tug'ish afzalroqdir."
+#~ msgid "Беременные с такой суммой баллов по факторам риска  должны находиться под особым диспансерным наблюдением в специально сформированной  группе.  Необходимо проведение усиленного лабораторного мониторинга, лечение в стационаре в критических  сроках беременности (госпитализация не менее 4-5 раз), проведение лечения основных заболеваний и осложнений гестации с участием узких специалистов и для решения вопроса об акушерской тактике.  План родов выбирается в зависимости от акушерской ситуации, однако, более предпочтительно оперативное родоразрешение путем кесарева сечения."
+#~ msgstr "Xavf omillari bo'yicha bunday ballga ega bo'lgan homilador ayollar maxsus tuzilgan guruhda maxsus dispanser kuzatuvida bo'lishi kerak. Kuchli laboratoriya monitoringini o'tkazish, homiladorlikning muhim bosqichlarida statsionar davolanish (kamida 4-5 marta kasalxonaga yotqizish), asosiy kasalliklar va homiladorlik asoratlarini tor mutaxassislar ishtirokida davolash va akusherlik holatiga qarab tanlangan tug'ilish muammosini hal qilish kerak. Biroq, sezaryen bilan jarrohlik tug'ish afzalroqdir."
 
 #: src/helpers/hooks/useQuestions.tsx:22
 #~ msgid "Более 100 г/л"
@@ -135,8 +147,8 @@ msgstr "Xavf omillari bo'yicha bunday ballga ega bo'lgan homilador ayollar maxsu
 
 #: src/helpers/hooks/useResult.ts:18
 #: src/helpers/hooks/useResult.ts:39
-msgid "В родах применяется активное ведение 3 периода и профилактика кровотечения с применением Окситоцина в дозировках, соответствующих национальным стандартам. Окситоцин 2мл (10 ЕД.) в/м на боковую поверхность бедра в момент рождения плечиков плода. Или Карбетоцин (Пабал) 1 мл. в/м сразу после рождения последа."
-msgstr "Tug'ilish paytida 3-bosqichni faol boshqarish va qon ketishining oldini olish uchun Oksitotsin bilan milliy standartlarga mos dozalarda qo'llaniladi. Oksitotsin 2 ml (10 U) homila yelkalari tug'ilganda sonning lateral yuzasiga mushak ichiga. Yoki Karbetotsin (Pabal) tug'ilgandan keyin darhol 1 ml."
+#~ msgid "В родах применяется активное ведение 3 периода и профилактика кровотечения с применением Окситоцина в дозировках, соответствующих национальным стандартам. Окситоцин 2мл (10 ЕД.) в/м на боковую поверхность бедра в момент рождения плечиков плода. Или Карбетоцин (Пабал) 1 мл. в/м сразу после рождения последа."
+#~ msgstr "Tug'ilish paytida 3-bosqichni faol boshqarish va qon ketishining oldini olish uchun Oksitotsin bilan milliy standartlarga mos dozalarda qo'llaniladi. Oksitotsin 2 ml (10 U) homila yelkalari tug'ilganda sonning lateral yuzasiga mushak ichiga. Yoki Karbetotsin (Pabal) tug'ilgandan keyin darhol 1 ml."
 
 #: src/helpers/hooks/useQuestions.tsx:200
 #~ msgid "Варикозная болезнь"
@@ -168,8 +180,12 @@ msgstr ""
 #~ msgstr "Doktor"
 
 #: src/helpers/hooks/useResult.ts:30
-msgid "Высокая степень риска акушерского кровотечения"
-msgstr "Akusherlik qon ketishining yuqori xavfi"
+#~ msgid "Высокая степень риска акушерского кровотечения"
+#~ msgstr "Akusherlik qon ketishining yuqori xavfi"
+
+#: src/helpers/hooks/useResult.ts:30
+msgid "Высокая степень риска развития гиперплазии"
+msgstr ""
 
 #: src/helpers/hooks/useQuestions.tsx:18
 #~ msgid "Гемоглобин"
@@ -217,8 +233,8 @@ msgid "Да"
 msgstr ""
 
 #: src/helpers/hooks/useResult.ts:32
-msgid "Для профилактики кровотечения рекомендуется в/в медленное введение 1 мл(5ЕД) Окситоцина или Пабала - 1 мл (100 мкг.) сразу после извлечения ребенка и перевязка 3 пар сосудов (круглых связок, a. Uterina, a. ovarica) путём наложения узловатых швов на боковые стенки матки на 2 см. ниже операционного разреза и в области трубных углов матки с захватом мышечной массы матки и собственной связки яичника с обеих сторон с использованием рассасывающихся синтетических  нитей"
-msgstr "Qon ketishining oldini olish uchun chaqaloq chiqarilgandan so'ng darhol 1 ml (5 U) Oksitotsin yoki Pabal - 1 ml (100 mkg) tomir ichiga yuborish va 3 juft tomirlarni (dumaloq ligamentlar, a. Bachadon, a. tuxumdonlar) bog'lash, 2 lateral devorga kesilgan devorni qo'yish tavsiya etiladi. jarrohlik kesma va bachadonning tubal burchaklari sohasida bachadon mushak massasini ushlash va so'rilishi mumkin bo'lgan sintetik iplar yordamida ikkala tomondan tuxumdonning to'g'ri bog'lanishi "
+#~ msgid "Для профилактики кровотечения рекомендуется в/в медленное введение 1 мл(5ЕД) Окситоцина или Пабала - 1 мл (100 мкг.) сразу после извлечения ребенка и перевязка 3 пар сосудов (круглых связок, a. Uterina, a. ovarica) путём наложения узловатых швов на боковые стенки матки на 2 см. ниже операционного разреза и в области трубных углов матки с захватом мышечной массы матки и собственной связки яичника с обеих сторон с использованием рассасывающихся синтетических  нитей"
+#~ msgstr "Qon ketishining oldini olish uchun chaqaloq chiqarilgandan so'ng darhol 1 ml (5 U) Oksitotsin yoki Pabal - 1 ml (100 mkg) tomir ichiga yuborish va 3 juft tomirlarni (dumaloq ligamentlar, a. Bachadon, a. tuxumdonlar) bog'lash, 2 lateral devorga kesilgan devorni qo'yish tavsiya etiladi. jarrohlik kesma va bachadonning tubal burchaklari sohasida bachadon mushak massasini ushlash va so'rilishi mumkin bo'lgan sintetik iplar yordamida ikkala tomondan tuxumdonning to'g'ri bog'lanishi "
 
 #: src/helpers/hooks/useQuestions.tsx:75
 #~ msgid "До 1500 мл"
@@ -437,8 +453,8 @@ msgstr ""
 #~ msgstr "Progressiv emas"
 
 #: src/helpers/hooks/useResult.ts:24
-msgid "Необходим усиленный мониторинг лабораторных анализов, состояния беременной и плода, госпитализация в критические сроки беременности для полного обследования и лечения имеющихся патологий и выбора дальнейшей акушерской тактики."
-msgstr "Mavjud patologiyalarni to'liq tekshirish va davolash va keyingi akusherlik taktikasini tanlash uchun laboratoriya tekshiruvlarini, homilador ayol va homilaning holatini, homiladorlikning muhim bosqichlarida kasalxonaga yotqizishni intensiv monitoring qilish zarur."
+#~ msgid "Необходим усиленный мониторинг лабораторных анализов, состояния беременной и плода, госпитализация в критические сроки беременности для полного обследования и лечения имеющихся патологий и выбора дальнейшей акушерской тактики."
+#~ msgstr "Mavjud patologiyalarni to'liq tekshirish va davolash va keyingi akusherlik taktikasini tanlash uchun laboratoriya tekshiruvlarini, homilador ayol va homilaning holatini, homiladorlikning muhim bosqichlarida kasalxonaga yotqizishni intensiv monitoring qilish zarur."
 
 #: src/helpers/hooks/useQuestions.tsx:34
 msgid "Неосложненный сахарный диабет"
@@ -471,8 +487,13 @@ msgstr ""
 
 #: src/helpers/hooks/useResult.ts:16
 #: src/helpers/hooks/useResult.ts:37
-msgid "Низкая степень риска акушерского кровотечения"
-msgstr "Akusherlik qon ketishining past xavfi"
+#~ msgid "Низкая степень риска акушерского кровотечения"
+#~ msgstr "Akusherlik qon ketishining past xavfi"
+
+#: src/helpers/hooks/useResult.ts:16
+#: src/helpers/hooks/useResult.ts:37
+msgid "Низкая степень риска развития гиперплазии"
+msgstr ""
 
 #: src/helpers/hooks/useQuestions.tsx:14
 msgid "НМЦ"
@@ -674,16 +695,20 @@ msgstr "Saqlash va yuborish"
 #~ msgstr "O‘rtacha yoki og‘ir"
 
 #: src/helpers/hooks/useResult.ts:23
-msgid "Средняя степень риска акушерского кровотечения"
-msgstr "Akusherlik qon ketishining o'rtacha xavfi"
+#~ msgid "Средняя степень риска акушерского кровотечения"
+#~ msgstr "Akusherlik qon ketishining o'rtacha xavfi"
+
+#: src/helpers/hooks/useResult.ts:23
+msgid "Средняя степень риска развития гиперплазии"
+msgstr ""
 
 #: src/helpers/hooks/useQuestions.tsx:14
 #~ msgid "Старше 35 лет"
 #~ msgstr "35 yoshdan katta"
 
 #: src/helpers/hooks/useResult.ts:25
-msgid "Тактика ведения родов планируется и проводится в соответствии с акушерской ситуацией. При ведении родов через естественные родовые пути в конце 2 периода в/в капельно 1 мл. (5 ЕД) Окситоцина на 500,0 мл физиологического раствора со скоростью от 6-7 капель в минуту в конце второго периода с увеличением до 80 капель после рождения плечиков. Введение Окситоцина необходимо продолжать в раннем послеродовом периоде. При кесаревом сечении Окситоцин 1 мл. (5 ЕД) в/в медленно или Пабал 1 мл. (100 мкг.) в/в после извлечения ребенка. Или 1 мл. (5 ЕД) Окситоцина на 50,0 мл физиологического раствора со скоростью   до 80 капель в минуту. Болюсное введение утеротоников более предпочтительно нежели капельное, так как эффект начинается обычно «на конце иглы»."
-msgstr "Mehnatni boshqarish taktikasi akusherlik holatiga muvofiq rejalashtirilgan va amalga oshiriladi. Vaginal tug'ilishda 2-davr oxirida 1 ml (5 U) oksitotsin 500,0 ml fiziologik eritmada tomir ichiga sekundiga 6-7 tomchi tezlikda tomchilab yuboriladi, tug'ilish davri oxirida 80 ga ko'payadi. Tug'ruqdan keyingi erta davrda oksitotsinni 1 ml (5 U) tomir ichiga yoki chaqaloq ekstraktidan keyin 1 ml (5 U) oksitotsinni 50,0 ml dozada yuborish kerak uterotonika tomchilatib yuborishdan afzalroqdir, chunki ta'sir odatda \"ignaning oxirida\" boshlanadi."
+#~ msgid "Тактика ведения родов планируется и проводится в соответствии с акушерской ситуацией. При ведении родов через естественные родовые пути в конце 2 периода в/в капельно 1 мл. (5 ЕД) Окситоцина на 500,0 мл физиологического раствора со скоростью от 6-7 капель в минуту в конце второго периода с увеличением до 80 капель после рождения плечиков. Введение Окситоцина необходимо продолжать в раннем послеродовом периоде. При кесаревом сечении Окситоцин 1 мл. (5 ЕД) в/в медленно или Пабал 1 мл. (100 мкг.) в/в после извлечения ребенка. Или 1 мл. (5 ЕД) Окситоцина на 50,0 мл физиологического раствора со скоростью   до 80 капель в минуту. Болюсное введение утеротоников более предпочтительно нежели капельное, так как эффект начинается обычно «на конце иглы»."
+#~ msgstr "Mehnatni boshqarish taktikasi akusherlik holatiga muvofiq rejalashtirilgan va amalga oshiriladi. Vaginal tug'ilishda 2-davr oxirida 1 ml (5 U) oksitotsin 500,0 ml fiziologik eritmada tomir ichiga sekundiga 6-7 tomchi tezlikda tomchilab yuboriladi, tug'ilish davri oxirida 80 ga ko'payadi. Tug'ruqdan keyingi erta davrda oksitotsinni 1 ml (5 U) tomir ichiga yoki chaqaloq ekstraktidan keyin 1 ml (5 U) oksitotsinni 50,0 ml dozada yuborish kerak uterotonika tomchilatib yuborishdan afzalroqdir, chunki ta'sir odatda \"ignaning oxirida\" boshlanadi."
 
 #: src/helpers/hooks/useQuestions.tsx:194
 #~ msgid "Фибриноген"

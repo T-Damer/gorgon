@@ -13,6 +13,18 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#. js-lingui-explicit-id
+#: src/helpers/hooks/useResult.ts:17
+#: src/helpers/hooks/useResult.ts:18
+#: src/helpers/hooks/useResult.ts:24
+#: src/helpers/hooks/useResult.ts:25
+#: src/helpers/hooks/useResult.ts:31
+#: src/helpers/hooks/useResult.ts:32
+#: src/helpers/hooks/useResult.ts:38
+#: src/helpers/hooks/useResult.ts:39
+msgid "/+Z5u4"
+msgstr "/+Z5u4"
+
 #: src/types/Question.ts:25
 #~ msgid " Менее 69,0 г/л"
 #~ msgstr "Less than 69,0 g/l"
@@ -81,8 +93,8 @@ msgstr "40,0 и более"
 
 #: src/helpers/hooks/useResult.ts:17
 #: src/helpers/hooks/useResult.ts:38
-msgid "Акушерская тактика по ведению беременности и план родов выбирается исходя из акушерской ситуации и состояния плода. Необходим тщательный клинико-лабораторный мониторинг с применением профилактических мероприятий (лечение анемии легкой степени, витаминно-микронутриентная терапия, санация инфекционных очагов, профилактика  возможных гестационных осложнений."
-msgstr "Obstetric tactics for pregnancy management and the birth plan are selected based on the obstetric situation and the condition of the fetus. Careful clinical and laboratory monitoring with the use of preventive measures is necessary (treatment of mild anemia, vitamin and micronutrient therapy, sanitation of infectious foci, prevention of possible gestational complications."
+#~ msgid "Акушерская тактика по ведению беременности и план родов выбирается исходя из акушерской ситуации и состояния плода. Необходим тщательный клинико-лабораторный мониторинг с применением профилактических мероприятий (лечение анемии легкой степени, витаминно-микронутриентная терапия, санация инфекционных очагов, профилактика  возможных гестационных осложнений."
+#~ msgstr "Obstetric tactics for pregnancy management and the birth plan are selected based on the obstetric situation and the condition of the fetus. Careful clinical and laboratory monitoring with the use of preventive measures is necessary (treatment of mild anemia, vitamin and micronutrient therapy, sanitation of infectious foci, prevention of possible gestational complications."
 
 #: src/helpers/hooks/useQuestions.tsx:72
 msgid "Артериальная гипертензия, гипертоническая болезнь"
@@ -105,8 +117,8 @@ msgstr "Артериальная гипертензия, гипертониче�
 #~ msgstr "Without endothelial dysfunction"
 
 #: src/helpers/hooks/useResult.ts:31
-msgid "Беременные с такой суммой баллов по факторам риска  должны находиться под особым диспансерным наблюдением в специально сформированной  группе.  Необходимо проведение усиленного лабораторного мониторинга, лечение в стационаре в критических  сроках беременности (госпитализация не менее 4-5 раз), проведение лечения основных заболеваний и осложнений гестации с участием узких специалистов и для решения вопроса об акушерской тактике.  План родов выбирается в зависимости от акушерской ситуации, однако, более предпочтительно оперативное родоразрешение путем кесарева сечения."
-msgstr "Pregnant women with such a score for risk factors should be under special dispensary observation in a specially formed group. It is necessary to conduct enhanced laboratory monitoring, inpatient treatment at critical stages of pregnancy (hospitalization at least 4-5 times), treatment of the main diseases and complications of gestation with the participation of narrow specialists and to resolve the issue of obstetric tactics. The birth plan is selected depending on the obstetric situation, however, surgical delivery by cesarean section is more preferable."
+#~ msgid "Беременные с такой суммой баллов по факторам риска  должны находиться под особым диспансерным наблюдением в специально сформированной  группе.  Необходимо проведение усиленного лабораторного мониторинга, лечение в стационаре в критических  сроках беременности (госпитализация не менее 4-5 раз), проведение лечения основных заболеваний и осложнений гестации с участием узких специалистов и для решения вопроса об акушерской тактике.  План родов выбирается в зависимости от акушерской ситуации, однако, более предпочтительно оперативное родоразрешение путем кесарева сечения."
+#~ msgstr "Pregnant women with such a score for risk factors should be under special dispensary observation in a specially formed group. It is necessary to conduct enhanced laboratory monitoring, inpatient treatment at critical stages of pregnancy (hospitalization at least 4-5 times), treatment of the main diseases and complications of gestation with the participation of narrow specialists and to resolve the issue of obstetric tactics. The birth plan is selected depending on the obstetric situation, however, surgical delivery by cesarean section is more preferable."
 
 #: src/helpers/hooks/useQuestions.tsx:22
 #~ msgid "Более 100 г/л"
@@ -138,8 +150,8 @@ msgstr "Pregnant women with such a score for risk factors should be under specia
 
 #: src/helpers/hooks/useResult.ts:18
 #: src/helpers/hooks/useResult.ts:39
-msgid "В родах применяется активное ведение 3 периода и профилактика кровотечения с применением Окситоцина в дозировках, соответствующих национальным стандартам. Окситоцин 2мл (10 ЕД.) в/м на боковую поверхность бедра в момент рождения плечиков плода. Или Карбетоцин (Пабал) 1 мл. в/м сразу после рождения последа."
-msgstr "During labor, active management of the 3rd stage and prevention of bleeding are used with Oxytocin in dosages corresponding to national standards. Oxytocin 2 ml (10 U) intramuscularly on the lateral surface of the thigh at the moment of birth of the fetal shoulders. Or Carbetocin (Pabal) 1 ml intramuscularly immediately after birth of the placenta."
+#~ msgid "В родах применяется активное ведение 3 периода и профилактика кровотечения с применением Окситоцина в дозировках, соответствующих национальным стандартам. Окситоцин 2мл (10 ЕД.) в/м на боковую поверхность бедра в момент рождения плечиков плода. Или Карбетоцин (Пабал) 1 мл. в/м сразу после рождения последа."
+#~ msgstr "During labor, active management of the 3rd stage and prevention of bleeding are used with Oxytocin in dosages corresponding to national standards. Oxytocin 2 ml (10 U) intramuscularly on the lateral surface of the thigh at the moment of birth of the fetal shoulders. Or Carbetocin (Pabal) 1 ml intramuscularly immediately after birth of the placenta."
 
 #: src/helpers/hooks/useQuestions.tsx:200
 #~ msgid "Варикозная болезнь"
@@ -171,8 +183,12 @@ msgstr "Виртуальная анкета для оценки степени �
 #~ msgstr "Doctor"
 
 #: src/helpers/hooks/useResult.ts:30
-msgid "Высокая степень риска акушерского кровотечения"
-msgstr ""
+#~ msgid "Высокая степень риска акушерского кровотечения"
+#~ msgstr ""
+
+#: src/helpers/hooks/useResult.ts:30
+msgid "Высокая степень риска развития гиперплазии"
+msgstr "Высокая степень риска развития гиперплазии"
 
 #: src/helpers/hooks/useQuestions.tsx:18
 #~ msgid "Гемоглобин"
@@ -220,8 +236,8 @@ msgid "Да"
 msgstr "Да"
 
 #: src/helpers/hooks/useResult.ts:32
-msgid "Для профилактики кровотечения рекомендуется в/в медленное введение 1 мл(5ЕД) Окситоцина или Пабала - 1 мл (100 мкг.) сразу после извлечения ребенка и перевязка 3 пар сосудов (круглых связок, a. Uterina, a. ovarica) путём наложения узловатых швов на боковые стенки матки на 2 см. ниже операционного разреза и в области трубных углов матки с захватом мышечной массы матки и собственной связки яичника с обеих сторон с использованием рассасывающихся синтетических  нитей"
-msgstr "Для профилактики кровотечения рекомендуется в/в медленное введение 1 мл(5ЕД) Окситоцина или Пабала - 1 мл (100 мкг.) сразу после извлечения ребенка и перевязка 3 пар сосудов (круглых связок, a. Uterina, a. ovarica) путём наложения узловатых швов на боковые стенки матки на 2 см. ниже операционного разреза и в области трубных углов матки с захватом мышечной массы матки и собственной связки яичника с обеих сторон с использованием рассасывающихся синтетических  нитей"
+#~ msgid "Для профилактики кровотечения рекомендуется в/в медленное введение 1 мл(5ЕД) Окситоцина или Пабала - 1 мл (100 мкг.) сразу после извлечения ребенка и перевязка 3 пар сосудов (круглых связок, a. Uterina, a. ovarica) путём наложения узловатых швов на боковые стенки матки на 2 см. ниже операционного разреза и в области трубных углов матки с захватом мышечной массы матки и собственной связки яичника с обеих сторон с использованием рассасывающихся синтетических  нитей"
+#~ msgstr "Для профилактики кровотечения рекомендуется в/в медленное введение 1 мл(5ЕД) Окситоцина или Пабала - 1 мл (100 мкг.) сразу после извлечения ребенка и перевязка 3 пар сосудов (круглых связок, a. Uterina, a. ovarica) путём наложения узловатых швов на боковые стенки матки на 2 см. ниже операционного разреза и в области трубных углов матки с захватом мышечной массы матки и собственной связки яичника с обеих сторон с использованием рассасывающихся синтетических  нитей"
 
 #: src/helpers/hooks/useQuestions.tsx:75
 #~ msgid "До 1500 мл"
@@ -440,8 +456,8 @@ msgstr "Нарушения менструального цикла"
 #~ msgstr "Non-progressive"
 
 #: src/helpers/hooks/useResult.ts:24
-msgid "Необходим усиленный мониторинг лабораторных анализов, состояния беременной и плода, госпитализация в критические сроки беременности для полного обследования и лечения имеющихся патологий и выбора дальнейшей акушерской тактики."
-msgstr ""
+#~ msgid "Необходим усиленный мониторинг лабораторных анализов, состояния беременной и плода, госпитализация в критические сроки беременности для полного обследования и лечения имеющихся патологий и выбора дальнейшей акушерской тактики."
+#~ msgstr ""
 
 #: src/helpers/hooks/useQuestions.tsx:34
 msgid "Неосложненный сахарный диабет"
@@ -474,8 +490,13 @@ msgstr "Нет нарушений"
 
 #: src/helpers/hooks/useResult.ts:16
 #: src/helpers/hooks/useResult.ts:37
-msgid "Низкая степень риска акушерского кровотечения"
-msgstr "Low risk of obstetric hemorrhage"
+#~ msgid "Низкая степень риска акушерского кровотечения"
+#~ msgstr "Low risk of obstetric hemorrhage"
+
+#: src/helpers/hooks/useResult.ts:16
+#: src/helpers/hooks/useResult.ts:37
+msgid "Низкая степень риска развития гиперплазии"
+msgstr "Низкая степень риска развития гиперплазии"
 
 #: src/helpers/hooks/useQuestions.tsx:14
 msgid "НМЦ"
@@ -677,16 +698,20 @@ msgstr "Save and send"
 #~ msgstr "Medium or severe degree"
 
 #: src/helpers/hooks/useResult.ts:23
-msgid "Средняя степень риска акушерского кровотечения"
-msgstr "Medium risk of obstetric hemorrhage"
+#~ msgid "Средняя степень риска акушерского кровотечения"
+#~ msgstr "Medium risk of obstetric hemorrhage"
+
+#: src/helpers/hooks/useResult.ts:23
+msgid "Средняя степень риска развития гиперплазии"
+msgstr "Средняя степень риска развития гиперплазии"
 
 #: src/helpers/hooks/useQuestions.tsx:14
 #~ msgid "Старше 35 лет"
 #~ msgstr "Over 35 years"
 
 #: src/helpers/hooks/useResult.ts:25
-msgid "Тактика ведения родов планируется и проводится в соответствии с акушерской ситуацией. При ведении родов через естественные родовые пути в конце 2 периода в/в капельно 1 мл. (5 ЕД) Окситоцина на 500,0 мл физиологического раствора со скоростью от 6-7 капель в минуту в конце второго периода с увеличением до 80 капель после рождения плечиков. Введение Окситоцина необходимо продолжать в раннем послеродовом периоде. При кесаревом сечении Окситоцин 1 мл. (5 ЕД) в/в медленно или Пабал 1 мл. (100 мкг.) в/в после извлечения ребенка. Или 1 мл. (5 ЕД) Окситоцина на 50,0 мл физиологического раствора со скоростью   до 80 капель в минуту. Болюсное введение утеротоников более предпочтительно нежели капельное, так как эффект начинается обычно «на конце иглы»."
-msgstr "Labor management tactics are planned and carried out in accordance with the obstetric situation. In case of vaginal delivery, at the end of the 2nd period, 1 ml (5 U) of Oxytocin per 500.0 ml of saline solution is administered intravenously by drip at a rate of 6-7 drops per minute at the end of the second period, increasing to 80 drops after the shoulders are born. Oxytocin administration should be continued in the early postpartum period. In case of cesarean section, Oxytocin 1 ml (5 U) intravenously slowly or Pabal 1 ml (100 mcg) intravenously after the baby is extracted. Or 1 ml (5 U) of Oxytocin per 50.0 ml of saline solution at a rate of up to 80 drops per minute. Bolus administration of uterotonics is preferable to drip administration, since the effect usually begins \"at the end of the needle."
+#~ msgid "Тактика ведения родов планируется и проводится в соответствии с акушерской ситуацией. При ведении родов через естественные родовые пути в конце 2 периода в/в капельно 1 мл. (5 ЕД) Окситоцина на 500,0 мл физиологического раствора со скоростью от 6-7 капель в минуту в конце второго периода с увеличением до 80 капель после рождения плечиков. Введение Окситоцина необходимо продолжать в раннем послеродовом периоде. При кесаревом сечении Окситоцин 1 мл. (5 ЕД) в/в медленно или Пабал 1 мл. (100 мкг.) в/в после извлечения ребенка. Или 1 мл. (5 ЕД) Окситоцина на 50,0 мл физиологического раствора со скоростью   до 80 капель в минуту. Болюсное введение утеротоников более предпочтительно нежели капельное, так как эффект начинается обычно «на конце иглы»."
+#~ msgstr "Labor management tactics are planned and carried out in accordance with the obstetric situation. In case of vaginal delivery, at the end of the 2nd period, 1 ml (5 U) of Oxytocin per 500.0 ml of saline solution is administered intravenously by drip at a rate of 6-7 drops per minute at the end of the second period, increasing to 80 drops after the shoulders are born. Oxytocin administration should be continued in the early postpartum period. In case of cesarean section, Oxytocin 1 ml (5 U) intravenously slowly or Pabal 1 ml (100 mcg) intravenously after the baby is extracted. Or 1 ml (5 U) of Oxytocin per 50.0 ml of saline solution at a rate of up to 80 drops per minute. Bolus administration of uterotonics is preferable to drip administration, since the effect usually begins \"at the end of the needle."
 
 #: src/helpers/hooks/useQuestions.tsx:194
 #~ msgid "Фибриноген"

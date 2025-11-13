@@ -29,20 +29,16 @@ msgstr ""
 #~ msgid " Менее 69,0 г/л"
 #~ msgstr "Less than 69,0 g/l"
 
-#: src/helpers/hooks/useResult.ts:17
 #: src/helpers/hooks/useResult.ts:18
-#: src/helpers/hooks/useResult.ts:24
 #: src/helpers/hooks/useResult.ts:25
-#: src/helpers/hooks/useResult.ts:31
 #: src/helpers/hooks/useResult.ts:32
-#: src/helpers/hooks/useResult.ts:38
 #: src/helpers/hooks/useResult.ts:39
 msgid "-"
-msgstr ""
+msgstr "-"
 
 #: src/helpers/hooks/useQuestions.tsx:45
 msgid "17,0 - 24,9"
-msgstr "17,0 - 24,9"
+msgstr "17.0 - 24.9"
 
 #: src/helpers/hooks/useQuestions.tsx:178
 #~ msgid "180-150 × 10⁹"
@@ -66,7 +62,7 @@ msgstr "17,0 - 24,9"
 
 #: src/helpers/hooks/useQuestions.tsx:47
 msgid "30,0 - 40,0"
-msgstr "30,0 - 40,0"
+msgstr "30.0 - 40.0"
 
 #: src/helpers/hooks/useQuestions.tsx:196
 #~ msgid "300 - 200"
@@ -74,7 +70,7 @@ msgstr "30,0 - 40,0"
 
 #: src/helpers/hooks/useQuestions.tsx:48
 msgid "40,0 и более"
-msgstr "40,0 и более"
+msgstr "40.0 and more"
 
 #: src/helpers/hooks/useQuestions.tsx:196
 #~ msgid "400 – 300"
@@ -107,9 +103,13 @@ msgstr "40,0 и более"
 #~ msgid "Акушерская тактика по ведению беременности и план родов выбирается исходя из акушерской ситуации и состояния плода. Необходим тщательный клинико-лабораторный мониторинг с применением профилактических мероприятий (лечение анемии легкой степени, витаминно-микронутриентная терапия, санация инфекционных очагов, профилактика  возможных гестационных осложнений."
 #~ msgstr "Obstetric tactics for pregnancy management and the birth plan are selected based on the obstetric situation and the condition of the fetus. Careful clinical and laboratory monitoring with the use of preventive measures is necessary (treatment of mild anemia, vitamin and micronutrient therapy, sanitation of infectious foci, prevention of possible gestational complications."
 
+#: src/helpers/hooks/useQuestions.tsx:14
+msgid "АМК (ОМК)"
+msgstr "AMB (AMB)"
+
 #: src/helpers/hooks/useQuestions.tsx:72
 msgid "Артериальная гипертензия, гипертоническая болезнь"
-msgstr "Артериальная гипертензия, гипертоническая болезнь"
+msgstr "Arterial hypertension, hypertensive disease"
 
 #: src/helpers/hooks/useQuestions.tsx:184
 #~ msgid "АЧТВ"
@@ -177,9 +177,9 @@ msgstr "Weight (kg)"
 #~ msgid "Вес плода"
 #~ msgstr "Weight of the fetus"
 
-#: src/pages/Select.tsx:21
+#: src/pages/Select.tsx:23
 msgid "Виртуальная анкета для оценки степени риска развития гиперплазии эндометрия и эндометриоидной интраэпителиальной неоплазии"
-msgstr "Виртуальная анкета для оценки степени риска развития гиперплазии эндометрия и эндометриоидной интраэпителиальной неоплазии"
+msgstr "Virtual questionnaire for assessing the risk of endometrial hyperplasia and endometrioid intraepithelial neoplasia"
 
 #: src/helpers/hooks/useQuestions.tsx:11
 #~ msgid "Возраст"
@@ -197,9 +197,9 @@ msgstr "Виртуальная анкета для оценки степени �
 #~ msgid "Высокая степень риска акушерского кровотечения"
 #~ msgstr ""
 
-#: src/helpers/hooks/useResult.ts:30
+#: src/helpers/hooks/useResult.ts:31
 msgid "Высокая степень риска развития гиперплазии"
-msgstr "Высокая степень риска развития гиперплазии"
+msgstr "High risk of hyperplasia development"
 
 #: src/helpers/hooks/useQuestions.tsx:18
 #~ msgid "Гемоглобин"
@@ -215,11 +215,15 @@ msgstr "Высокая степень риска развития гиперпл
 
 #: src/helpers/hooks/useQuestions.tsx:71
 msgid "Гипертония"
-msgstr "Гипертония"
+msgstr "Hypertension"
 
 #: src/helpers/hooks/useQuestions.tsx:90
 msgid "Гипотириоз, гипертиреоз"
-msgstr "Гипотириоз, гипертиреоз"
+msgstr "Hypothyroidism, hyperthyroidism"
+
+#: src/pages/Select.tsx:20
+msgid "Горгона"
+msgstr "Gorgon"
 
 #: src/helpers/hooks/useQuestions.tsx:195
 #~ msgid "Грамм на литр крови"
@@ -227,7 +231,7 @@ msgstr "Гипотириоз, гипертиреоз"
 
 #: src/helpers/hooks/useQuestions.tsx:149
 msgid "Грудное вскрамливание"
-msgstr "Грудное вскрамливание"
+msgstr "Breastfeeding"
 
 #: src/helpers/hooks/useQuestions.tsx:23
 #: src/helpers/hooks/useQuestions.tsx:57
@@ -244,7 +248,7 @@ msgstr "Грудное вскрамливание"
 #: src/helpers/hooks/useQuestions.tsx:152
 #: src/helpers/hooks/useQuestions.tsx:162
 msgid "Да"
-msgstr "Да"
+msgstr "Yes"
 
 #: src/helpers/hooks/useResult.ts:32
 #~ msgid "Для профилактики кровотечения рекомендуется в/в медленное введение 1 мл(5ЕД) Окситоцина или Пабала - 1 мл (100 мкг.) сразу после извлечения ребенка и перевязка 3 пар сосудов (круглых связок, a. Uterina, a. ovarica) путём наложения узловатых швов на боковые стенки матки на 2 см. ниже операционного разреза и в области трубных углов матки с захватом мышечной массы матки и собственной связки яичника с обеих сторон с использованием рассасывающихся синтетических  нитей"
@@ -272,11 +276,11 @@ msgstr "Да"
 
 #: src/helpers/hooks/useQuestions.tsx:62
 msgid "Доброкачественная дисплазия молочной железы (ДДМЖ)"
-msgstr "Доброкачественная дисплазия молочной железы (ДДМЖ)"
+msgstr "Benign breast dysplasia (BBD)"
 
 #: src/helpers/hooks/useQuestions.tsx:122
 msgid "Долгий прием препаратов для МГТ"
-msgstr "Долгий прием препаратов для МГТ"
+msgstr "Long-term use of MHT medications"
 
 #: src/helpers/hooks/useQuestions.tsx:102
 #~ msgid "Единичный узел до 5 см"
@@ -284,27 +288,27 @@ msgstr "Долгий прием препаратов для МГТ"
 
 #: src/helpers/hooks/useQuestions.tsx:12
 msgid "Есть ли у вас нарушения менструального цикла (НМЦ) или острые маточные кровотечения (ОМК)?"
-msgstr "Есть ли у вас нарушения менструального цикла (НМЦ) или острые маточные кровотечения (ОМК)?"
+msgstr "Do you have menstrual cycle disorders (MCD) or acute uterine bleeding (AUB)?"
 
 #: src/helpers/hooks/useQuestions.tsx:29
 msgid "Есть ли у вас обменно-эндокринные заболевания: сахарный диабет, дислипидемия?"
-msgstr "Есть ли у вас обменно-эндокринные заболевания: сахарный диабет, дислипидемия?"
+msgstr "Do you have metabolic-endocrine diseases: diabetes mellitus, dyslipidemia?"
 
 #: src/helpers/hooks/useQuestions.tsx:19
 msgid "Есть ли у вас хроническая ановуляция?"
-msgstr "Есть ли у вас хроническая ановуляция?"
+msgstr "Do you have chronic anovulation?"
 
 #: src/helpers/hooks/useQuestions.tsx:13
 msgid "Есть ли у пациента нарушения менструального цикла или острые маточные кровотечения?"
-msgstr "Есть ли у пациента нарушения менструального цикла или острые маточные кровотечения?"
+msgstr "Does the patient have menstrual cycle disorders or acute uterine bleeding?"
 
 #: src/helpers/hooks/useQuestions.tsx:30
 msgid "Есть ли у пациента обменно-эндокринные заболевания: сахарный диабет, дислипидемия?"
-msgstr "Есть ли у пациента обменно-эндокринные заболевания: сахарный диабет, дислипидемия?"
+msgstr "Does the patient have metabolic-endocrine diseases: diabetes mellitus, dyslipidemia?"
 
 #: src/helpers/hooks/useQuestions.tsx:20
 msgid "Есть ли у пациента хроническая ановуляция?"
-msgstr "Есть ли у пациента хроническая ановуляция?"
+msgstr "Does the patient have chronic anovulation?"
 
 #: src/helpers/hooks/useQuestions.tsx:46
 #~ msgid "Заболевание без нарушения функции"
@@ -328,7 +332,7 @@ msgstr "Есть ли у пациента хроническая ановуля�
 
 #: src/helpers/hooks/useQuestions.tsx:89
 msgid "Заболевания щитовидной железы"
-msgstr "Заболевания щитовидной железы"
+msgstr "Thyroid diseases"
 
 #: src/helpers/hooks/useQuestions.tsx:165
 #~ msgid "Идиопатический легочный фиброз, фиброзирующий альвеолит при диффузных заболеваниях соединительной ткани, саркоидоз лёгких, экзогенный аллергический альвеолит, ХОБЛ, COVID-19, легочная артериальная гипертензия"
@@ -344,11 +348,11 @@ msgstr "Заболевания щитовидной железы"
 
 #: src/helpers/hooks/useQuestions.tsx:40
 msgid "Индекс массы тела"
-msgstr "Индекс массы тела"
+msgstr "Body mass index"
 
 #: src/helpers/hooks/useQuestions.tsx:33
 msgid "Инсулинорезистентность или дислипидемия"
-msgstr "Инсулинорезистентность или дислипидемия"
+msgstr "Insulin resistance or dyslipidemia"
 
 #: src/helpers/hooks/useQuestions.tsx:43
 #~ msgid "Какие заболевания есть у пациента?"
@@ -372,7 +376,7 @@ msgstr "Инсулинорезистентность или дислипидем
 
 #: src/helpers/hooks/useQuestions.tsx:41
 msgid "Какой у вас индекс массы тела?"
-msgstr "Какой у вас индекс массы тела?"
+msgstr "What is your body mass index?"
 
 #: src/helpers/hooks/useQuestions.tsx:20
 #~ msgid "Какой у пациента гемоглобин в крови?"
@@ -399,8 +403,8 @@ msgstr "What is the patient's body mass index?"
 #~ msgstr "Mild"
 
 #: src/pages/Result.tsx:31
-msgid "Лечение"
-msgstr "Treatment"
+#~ msgid "Лечение"
+#~ msgstr "Treatment"
 
 #: src/helpers/hooks/useQuestions.tsx:89
 #~ msgid "Любого характера"
@@ -416,7 +420,7 @@ msgstr "Treatment"
 
 #: src/helpers/hooks/useQuestions.tsx:46
 msgid "Менее 17,0 или 25,0 - 29,9"
-msgstr "Менее 17,0 или 25,0 - 29,9"
+msgstr "Less than 17.0 or 25.0 - 29.9"
 
 #: src/helpers/hooks/useQuestions.tsx:196
 #~ msgid "Менее 200"
@@ -460,7 +464,7 @@ msgstr "Менее 17,0 или 25,0 - 29,9"
 
 #: src/helpers/hooks/useQuestions.tsx:11
 msgid "Нарушения менструального цикла"
-msgstr "Нарушения менструального цикла"
+msgstr "Menstrual cycle disorders"
 
 #: src/helpers/hooks/useQuestions.tsx:128
 #~ msgid "Не прогрессирующая"
@@ -472,7 +476,7 @@ msgstr "Нарушения менструального цикла"
 
 #: src/helpers/hooks/useQuestions.tsx:34
 msgid "Неосложненный сахарный диабет"
-msgstr "Неосложненный сахарный диабет"
+msgstr "Uncomplicated diabetes mellitus"
 
 #: src/helpers/hooks/useQuestions.tsx:14
 #: src/helpers/hooks/useQuestions.tsx:22
@@ -493,7 +497,7 @@ msgstr "No"
 
 #: src/helpers/hooks/useQuestions.tsx:32
 msgid "Нет нарушений"
-msgstr "Нет нарушений"
+msgstr "No disorders"
 
 #: src/helpers/hooks/useQuestions.tsx:147
 #~ msgid "Нет, либо бессимптомная бактериурия"
@@ -504,26 +508,30 @@ msgstr "Нет нарушений"
 #~ msgid "Низкая степень риска акушерского кровотечения"
 #~ msgstr "Low risk of obstetric hemorrhage"
 
-#: src/helpers/hooks/useResult.ts:16
-#: src/helpers/hooks/useResult.ts:37
+#: src/helpers/hooks/useResult.ts:17
+#: src/helpers/hooks/useResult.ts:38
 msgid "Низкая степень риска развития гиперплазии"
-msgstr "Низкая степень риска развития гиперплазии"
+msgstr "Low risk of hyperplasia development"
 
 #: src/helpers/hooks/useQuestions.tsx:14
 msgid "НМЦ"
-msgstr "НМЦ"
+msgstr "MCD"
 
 #: src/helpers/hooks/useQuestions.tsx:14
-msgid "НМЦ и ОМК"
-msgstr "НМЦ и ОМК"
+msgid "НМЦ и АМК (ОМК)"
+msgstr "MCD and AMB (AUB)"
+
+#: src/helpers/hooks/useQuestions.tsx:14
+#~ msgid "НМЦ и ОМК"
+#~ msgstr "НМЦ и ОМК"
 
 #: src/helpers/hooks/useQuestions.tsx:187
 #~ msgid "Норма"
 #~ msgstr "Normal"
 
 #: src/pages/Result.tsx:56
-msgid "Обратиться к специалисту"
-msgstr "Consult a specialist"
+#~ msgid "Обратиться к специалисту"
+#~ msgstr "Consult a specialist"
 
 #: src/helpers/hooks/useQuestions.tsx:73
 #~ msgid "Объем жидкости"
@@ -534,20 +542,20 @@ msgstr "Consult a specialist"
 #~ msgstr "Volume of platelets"
 
 #: src/helpers/hooks/useQuestions.tsx:14
-msgid "ОМК"
-msgstr "ОМК"
+#~ msgid "ОМК"
+#~ msgstr "ОМК"
 
 #: src/helpers/hooks/useQuestions.tsx:159
 msgid "Онкологические  заболевания  у родственников 1-2 линии по материнской и отцовской линии"
-msgstr "Онкологические  заболевания  у родственников 1-2 линии по материнской и отцовской линии"
+msgstr "Oncological diseases in 1st-2nd degree relatives on maternal and paternal lines"
 
 #: src/helpers/hooks/useQuestions.tsx:131
 msgid "Онкологические заболевания"
-msgstr "Онкологические заболевания"
+msgstr "Oncological diseases"
 
 #: src/helpers/hooks/useQuestions.tsx:35
 msgid "Осложненный сахарный диабет"
-msgstr "Осложненный сахарный диабет"
+msgstr "Complicated diabetes mellitus"
 
 #: src/helpers/hooks/useQuestions.tsx:159
 #~ msgid "Острый эндометрит"
@@ -587,11 +595,11 @@ msgstr "Absent"
 
 #: src/helpers/hooks/useQuestions.tsx:140
 msgid "Отягощенный акушерско-гинекологический анамнез"
-msgstr "Отягощенный акушерско-гинекологический анамнез"
+msgstr "Complicated obstetric-gynecological history"
 
 #: src/helpers/hooks/useQuestions.tsx:158
 msgid "Отягощенный семейный анамнез"
-msgstr "Отягощенный семейный анамнез"
+msgstr "Complicated family history"
 
 #: src/pages/Select.tsx:44
 #~ msgid "Пациент"
@@ -603,7 +611,7 @@ msgstr "Отягощенный семейный анамнез"
 
 #: src/helpers/hooks/useQuestions.tsx:107
 msgid "Поздняя менопауза"
-msgstr "Поздняя менопауза"
+msgstr "Late menopause"
 
 #: src/helpers/hooks/useQuestions.tsx:124
 #~ msgid "ПОНРП"
@@ -611,7 +619,7 @@ msgstr "Поздняя менопауза"
 
 #: src/helpers/hooks/useQuestions.tsx:108
 msgid "После 55 лет. Менопауза - это прекращение менструального цикла."
-msgstr "После 55 лет. Менопауза - это прекращение менструального цикла."
+msgstr "After 55 years. Menopause is the cessation of the menstrual cycle."
 
 #: src/helpers/hooks/useQuestions.tsx:125
 #~ msgid "Преждевременная отслойка нормально расположенной плаценты. преждевременное (до рождения ребенка) отделение плаценты от стенки матки во время беременности или в I - II периодах родов"
@@ -631,34 +639,34 @@ msgstr "После 55 лет. Менопауза - это прекращение
 
 #: src/helpers/hooks/useQuestions.tsx:113
 msgid "Прием КОКов более 7 лет"
-msgstr "Прием КОКов более 7 лет"
+msgstr "Taking COCs for more than 7 years"
 
 #: src/helpers/hooks/useQuestions.tsx:123
 msgid "Применение препаратов для менструальной гормональной терапии более 7 лет"
-msgstr "Применение препаратов для менструальной гормональной терапии более 7 лет"
+msgstr "Use of menstrual hormone therapy medications for more than 7 years"
 
 #: src/helpers/hooks/useQuestions.tsx:129
 #~ msgid "Прогрессирующая"
 #~ msgstr "Progressive"
 
-#: src/pages/Select.tsx:35
+#: src/pages/Select.tsx:37
 msgid "Пройти анкету"
-msgstr "Пройти анкету"
+msgstr "Take the questionnaire"
 
-#: src/pages/Result.tsx:43
+#: src/pages/Result.tsx:45
 msgid "Пройти заново"
-msgstr "Retry"
+msgstr "Retake"
 
 #: src/helpers/hooks/useQuestions.tsx:98
 msgid "Раннее менархе"
-msgstr "Раннее менархе"
+msgstr "Early menarche"
 
 #: src/helpers/hooks/useQuestions.tsx:99
 msgid "Раньше 11-12 лет. Менархе - это первое менструальное кровотечение."
-msgstr "Раньше 11-12 лет. Менархе - это первое менструальное кровотечение."
+msgstr "Before 11-12 years. Menarche is the first menstrual bleeding."
 
-#: src/pages/Result.tsx:25
-#: src/pages/Result.tsx:48
+#: src/pages/Result.tsx:28
+#: src/pages/Result.tsx:50
 msgid "Результат"
 msgstr "Result"
 
@@ -690,7 +698,7 @@ msgstr "Height (cm)"
 
 #: src/helpers/hooks/useQuestions.tsx:53
 msgid "Синдром поликистозных яичников (СПКЯ)"
-msgstr "Синдром поликистозных яичников (СПКЯ)"
+msgstr "Polycystic ovary syndrome (PCOS)"
 
 #: src/helpers/hooks/useQuestions.tsx:12
 #~ msgid "Сколько вам полных лет?"
@@ -700,7 +708,7 @@ msgstr "Синдром поликистозных яичников (СПКЯ)"
 #~ msgid "Сколько пациенту полных лет?"
 #~ msgstr "How many full years does the patient have?"
 
-#: src/pages/Result.tsx:50
+#: src/pages/Result.tsx:52
 msgid "Сохранить и отправить"
 msgstr "Save and send"
 
@@ -712,9 +720,9 @@ msgstr "Save and send"
 #~ msgid "Средняя степень риска акушерского кровотечения"
 #~ msgstr "Medium risk of obstetric hemorrhage"
 
-#: src/helpers/hooks/useResult.ts:23
+#: src/helpers/hooks/useResult.ts:24
 msgid "Средняя степень риска развития гиперплазии"
-msgstr "Средняя степень риска развития гиперплазии"
+msgstr "Moderate risk of hyperplasia development"
 
 #: src/helpers/hooks/useQuestions.tsx:14
 #~ msgid "Старше 35 лет"
@@ -730,15 +738,15 @@ msgstr "Средняя степень риска развития гиперпл
 
 #: src/helpers/hooks/useQuestions.tsx:18
 msgid "Хроническая ановуляция"
-msgstr "Хроническая ановуляция"
+msgstr "Chronic anovulation"
 
 #: src/helpers/hooks/useQuestions.tsx:81
 msgid "Хронические заболевания гепато-биллиарной системы"
-msgstr "Хронические заболевания гепато-биллиарной системы"
+msgstr "Chronic hepatobiliary system diseases"
 
 #: src/helpers/hooks/useQuestions.tsx:80
 msgid "Хронические заболевания печени"
-msgstr "Хронические заболевания печени"
+msgstr "Chronic liver diseases"
 
 #: src/helpers/hooks/useQuestions.tsx:158
 #~ msgid "Хронический эндометрит"
@@ -746,11 +754,11 @@ msgstr "Хронические заболевания печени"
 
 #: src/helpers/hooks/useQuestions.tsx:141
 msgid "Хроничесские воспалительные заболевания органов малого таза (ХВЗОМТ), хронический эндометрит, бесплодие, отсутствие родов в анамнезе, привычное невынашивание беременности, операции на органах женской репродуктивной системы (РДВ, гистероскопия, операции)"
-msgstr "Хроничесские воспалительные заболевания органов малого таза (ХВЗОМТ), хронический эндометрит, бесплодие, отсутствие родов в анамнезе, привычное невынашивание беременности, операции на органах женской репродуктивной системы (РДВ, гистероскопия, операции)"
+msgstr "Chronic pelvic inflammatory diseases (CPID), chronic endometritis, infertility, absence of childbirth history, recurrent pregnancy loss, operations on female reproductive system organs (D&C, hysteroscopy, operations)"
 
 #: src/helpers/hooks/useQuestions.tsx:28
 msgid "Эндокринные заболевания"
-msgstr "Эндокринные заболевания"
+msgstr "Endocrine diseases"
 
 #: src/pages/Select.tsx:21
 #~ msgid "Это виртуальный акушерский консультант, который поможет вам определить риски акушерского кровотечения, а врачам предложит план лечения."
@@ -762,4 +770,4 @@ msgstr "Эндокринные заболевания"
 
 #: src/helpers/hooks/useQuestions.tsx:132
 msgid "Яичников, молочной железы, кишечника"
-msgstr "Яичников, молочной железы, кишечника"
+msgstr "Ovarian, breast, intestinal"

@@ -25,13 +25,9 @@ msgstr ""
 #~ msgid "/+Z5u4"
 #~ msgstr ""
 
-#: src/helpers/hooks/useResult.ts:17
 #: src/helpers/hooks/useResult.ts:18
-#: src/helpers/hooks/useResult.ts:24
 #: src/helpers/hooks/useResult.ts:25
-#: src/helpers/hooks/useResult.ts:31
 #: src/helpers/hooks/useResult.ts:32
-#: src/helpers/hooks/useResult.ts:38
 #: src/helpers/hooks/useResult.ts:39
 msgid "-"
 msgstr "-"
@@ -96,6 +92,10 @@ msgstr ""
 #: src/helpers/hooks/useResult.ts:38
 #~ msgid "Акушерская тактика по ведению беременности и план родов выбирается исходя из акушерской ситуации и состояния плода. Необходим тщательный клинико-лабораторный мониторинг с применением профилактических мероприятий (лечение анемии легкой степени, витаминно-микронутриентная терапия, санация инфекционных очагов, профилактика  возможных гестационных осложнений."
 #~ msgstr "Акушерская тактика по ведению беременности и план родов выбирается исходя из акушерской ситуации и состояния плода. Необходим тщательный клинико-лабораторный мониторинг с применением профилактических мероприятий (лечение анемии легкой степени, витаминно-микронутриентная терапия, санация инфекционных очагов, профилактика  возможных гестационных осложнений."
+
+#: src/helpers/hooks/useQuestions.tsx:14
+msgid "АМК (ОМК)"
+msgstr "АМК (ОМК)"
 
 #: src/helpers/hooks/useQuestions.tsx:72
 msgid "Артериальная гипертензия, гипертоническая болезнь"
@@ -167,7 +167,7 @@ msgstr "Вес (кг)"
 #~ msgid "Вес плода"
 #~ msgstr "Вес плода"
 
-#: src/pages/Select.tsx:21
+#: src/pages/Select.tsx:23
 msgid "Виртуальная анкета для оценки степени риска развития гиперплазии эндометрия и эндометриоидной интраэпителиальной неоплазии"
 msgstr ""
 
@@ -187,7 +187,7 @@ msgstr ""
 #~ msgid "Высокая степень риска акушерского кровотечения"
 #~ msgstr "Высокая степень риска акушерского кровотечения"
 
-#: src/helpers/hooks/useResult.ts:30
+#: src/helpers/hooks/useResult.ts:31
 msgid "Высокая степень риска развития гиперплазии"
 msgstr ""
 
@@ -210,6 +210,10 @@ msgstr ""
 #: src/helpers/hooks/useQuestions.tsx:90
 msgid "Гипотириоз, гипертиреоз"
 msgstr ""
+
+#: src/pages/Select.tsx:20
+msgid "Горгона"
+msgstr "Горгона"
 
 #: src/helpers/hooks/useQuestions.tsx:195
 #~ msgid "Грамм на литр крови"
@@ -385,8 +389,8 @@ msgstr "Какой у пациента индекс масссы тела?"
 #~ msgstr "Легкой степени"
 
 #: src/pages/Result.tsx:31
-msgid "Лечение"
-msgstr "Лечение"
+#~ msgid "Лечение"
+#~ msgstr "Лечение"
 
 #: src/helpers/hooks/useQuestions.tsx:89
 #~ msgid "Любого характера"
@@ -490,8 +494,8 @@ msgstr ""
 #~ msgid "Низкая степень риска акушерского кровотечения"
 #~ msgstr "Низкая степень риска акушерского кровотечения"
 
-#: src/helpers/hooks/useResult.ts:16
-#: src/helpers/hooks/useResult.ts:37
+#: src/helpers/hooks/useResult.ts:17
+#: src/helpers/hooks/useResult.ts:38
 msgid "Низкая степень риска развития гиперплазии"
 msgstr ""
 
@@ -500,16 +504,20 @@ msgid "НМЦ"
 msgstr ""
 
 #: src/helpers/hooks/useQuestions.tsx:14
-msgid "НМЦ и ОМК"
-msgstr ""
+msgid "НМЦ и АМК (ОМК)"
+msgstr "НМЦ и АМК (ОМК)"
+
+#: src/helpers/hooks/useQuestions.tsx:14
+#~ msgid "НМЦ и ОМК"
+#~ msgstr ""
 
 #: src/helpers/hooks/useQuestions.tsx:187
 #~ msgid "Норма"
 #~ msgstr "Норма"
 
 #: src/pages/Result.tsx:56
-msgid "Обратиться к специалисту"
-msgstr "Обратиться к специалисту"
+#~ msgid "Обратиться к специалисту"
+#~ msgstr "Обратиться к специалисту"
 
 #: src/helpers/hooks/useQuestions.tsx:73
 #~ msgid "Объем жидкости"
@@ -520,8 +528,8 @@ msgstr "Обратиться к специалисту"
 #~ msgstr "Объем тромбоцитов"
 
 #: src/helpers/hooks/useQuestions.tsx:14
-msgid "ОМК"
-msgstr ""
+#~ msgid "ОМК"
+#~ msgstr ""
 
 #: src/helpers/hooks/useQuestions.tsx:159
 msgid "Онкологические  заболевания  у родственников 1-2 линии по материнской и отцовской линии"
@@ -627,11 +635,11 @@ msgstr ""
 #~ msgid "Прогрессирующая"
 #~ msgstr "Прогрессирующая"
 
-#: src/pages/Select.tsx:35
+#: src/pages/Select.tsx:37
 msgid "Пройти анкету"
 msgstr ""
 
-#: src/pages/Result.tsx:43
+#: src/pages/Result.tsx:45
 msgid "Пройти заново"
 msgstr "Пройти заново"
 
@@ -643,8 +651,8 @@ msgstr ""
 msgid "Раньше 11-12 лет. Менархе - это первое менструальное кровотечение."
 msgstr ""
 
-#: src/pages/Result.tsx:25
-#: src/pages/Result.tsx:48
+#: src/pages/Result.tsx:28
+#: src/pages/Result.tsx:50
 msgid "Результат"
 msgstr "Результат"
 
@@ -686,7 +694,7 @@ msgstr ""
 #~ msgid "Сколько пациенту полных лет?"
 #~ msgstr "Сколько пациенту полных лет?"
 
-#: src/pages/Result.tsx:50
+#: src/pages/Result.tsx:52
 msgid "Сохранить и отправить"
 msgstr "Сохранить и отправить"
 
@@ -698,7 +706,7 @@ msgstr "Сохранить и отправить"
 #~ msgid "Средняя степень риска акушерского кровотечения"
 #~ msgstr "Средняя степень риска акушерского кровотечения"
 
-#: src/helpers/hooks/useResult.ts:23
+#: src/helpers/hooks/useResult.ts:24
 msgid "Средняя степень риска развития гиперплазии"
 msgstr ""
 

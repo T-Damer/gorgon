@@ -16,7 +16,9 @@ export default function MainPage() {
       <Header />
       <div className="flex h-full flex-col items-center justify-center gap-8 p-2 md:flex-row">
         <Card className="text-center text-black">
-          <h1 className="font-black text-2xl">Горгона</h1>
+          <h1 className="font-black text-2xl">
+            <Trans>Горгона</Trans>
+          </h1>
           <p>
             <Trans>
               Виртуальная анкета для оценки степени риска развития гиперплазии

@@ -1,7 +1,7 @@
 import { LinguiConfig } from '@lingui/conf'
 
 const config: LinguiConfig = {
-  locales: ['en', 'ru', 'uz'],
+  locales: ['en', 'ru'],
   sourceLocale: 'ru',
   catalogs: [
     {
@@ -11,7 +11,6 @@ const config: LinguiConfig = {
   ],
   fallbackLocales: {
     en: 'ru',
-    uz: 'ru',
   },
   format: 'po',
   compileNamespace: 'ts',

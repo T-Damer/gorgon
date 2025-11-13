@@ -3,7 +3,7 @@ import { useLingui } from '@lingui/react/macro'
 export type QuestionaryResult = {
   title: string
   description: string
-  treatment: string
+  value: string
   sum: number
 }
 
@@ -13,30 +13,30 @@ export default function useResult(sum: number) {
   switch (true) {
     case sum < 10:
       return {
+        value: 'low',
         title: t`Низкая степень риска развития гиперплазии`,
         description: t`-`,
-        treatment: t`-`,
         sum,
       }
     case sum >= 11 && sum <= 15:
       return {
+        value: 'med',
         title: t`Средняя степень риска развития гиперплазии`,
         description: t`-`,
-        treatment: t`-`,
         sum,
       }
     case sum > 15:
       return {
+        value: 'high',
         title: t`Высокая степень риска развития гиперплазии`,
         description: t`-`,
-        treatment: t`-`,
         sum,
       }
     default:
       return {
+        value: 'low',
         title: t`Низкая степень риска развития гиперплазии`,
         description: t`-`,
-        treatment: t`-`,
         sum,
       }
   }

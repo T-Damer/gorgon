@@ -3,7 +3,7 @@ import userStore, { Languages } from 'atoms/userStore'
 import { useAtom } from 'jotai'
 import { useEffect } from 'react'
 
-const availableLanguage = ['ru', 'uz', 'en'] as const
+const availableLanguage = ['ru', 'en'] as const
 
 export default function LanguagePicker() {
   const { i18n: t } = useLingui()

@@ -105,7 +105,7 @@ msgstr "40.0 and more"
 
 #: src/helpers/hooks/useQuestions.tsx:14
 msgid "АМК (ОМК)"
-msgstr "AMB (AMB)"
+msgstr "AUB (HUB)"
 
 #: src/helpers/hooks/useQuestions.tsx:72
 msgid "Артериальная гипертензия, гипертоническая болезнь"
@@ -519,7 +519,7 @@ msgstr "MCD"
 
 #: src/helpers/hooks/useQuestions.tsx:14
 msgid "НМЦ и АМК (ОМК)"
-msgstr "MCD and AMB (AUB)"
+msgstr "MCD and AUB (HUB)"
 
 #: src/helpers/hooks/useQuestions.tsx:14
 #~ msgid "НМЦ и ОМК"

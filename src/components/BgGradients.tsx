@@ -2,15 +2,51 @@ import 'gradients.css'
 import { cn } from 'helpers/cn'
 import { useEffect, useRef, useState } from 'react'
 
+const LIGHT_THEME_COLORS = {
+  gradientBackgroundStart: '#f3f4f6',
+  gradientBackgroundEnd: '#d1d5db',
+  firstColor: 'rgba(148, 163, 184, 0.28)',
+  secondColor: '229, 231, 235',
+  thirdColor: '203, 213, 225',
+  fourthColor: '156, 163, 175',
+  fifthColor: '107, 114, 128',
+  pointerColor: '148, 163, 184',
+} as const
+
+const DARK_THEME_COLORS = {
+  gradientBackgroundStart: '#111827',
+  gradientBackgroundEnd: '#030712',
+  firstColor: 'rgba(71, 85, 105, 0.4)',
+  secondColor: '55, 65, 81',
+  thirdColor: '31, 41, 55',
+  fourthColor: '75, 85, 99',
+  fifthColor: '17, 24, 39',
+  pointerColor: '107, 114, 128',
+} as const
+
+const getIsDarkTheme = () => {
+  const root = document.documentElement
+
+  if (root.classList.contains('dark')) {
+    return true
+  }
+
+  if (root.classList.contains('light')) {
+    return false
+  }
+
+  return window.matchMedia('(prefers-color-scheme: dark)').matches
+}
+
 export const BgGradients = ({
-  gradientBackgroundStart = '#8C33DB',
-  gradientBackgroundEnd = '#F99DA0',
-  firstColor = '#27140E25',
-  secondColor = '#0000000',
-  thirdColor = '#000000',
-  fourthColor = '#000000',
-  fifthColor = '#000000',
-  pointerColor = '#000000',
+  gradientBackgroundStart,
+  gradientBackgroundEnd,
+  firstColor,
+  secondColor,
+  thirdColor,
+  fourthColor,
+  fifthColor,
+  pointerColor,
   size = '100%',
   blendingValue = 'hard-light',
   children,
@@ -34,29 +70,72 @@ export const BgGradients = ({
   containerClassName?: string
 }) => {
   const interactiveRef = useRef<HTMLDivElement>(null)
+  const [isDarkTheme, setIsDarkTheme] = useState(false)
 
   const [curX, setCurX] = useState(0)
   const [curY, setCurY] = useState(0)
   const [tgX, setTgX] = useState(0)
   const [tgY, setTgY] = useState(0)
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+    const syncTheme = () => setIsDarkTheme(getIsDarkTheme())
+    const observer = new MutationObserver(syncTheme)
+
+    syncTheme()
+    mediaQuery.addEventListener('change', syncTheme)
+    observer.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['class'],
+    })
+
+    return () => {
+      mediaQuery.removeEventListener('change', syncTheme)
+      observer.disconnect()
+    }
+  }, [])
+
+  const themeColors = isDarkTheme ? DARK_THEME_COLORS : LIGHT_THEME_COLORS
+  const resolvedGradientBackgroundStart =
+    gradientBackgroundStart ?? themeColors.gradientBackgroundStart
+  const resolvedGradientBackgroundEnd =
+    gradientBackgroundEnd ?? themeColors.gradientBackgroundEnd
+  const resolvedFirstColor = firstColor ?? themeColors.firstColor
+  const resolvedSecondColor = secondColor ?? themeColors.secondColor
+  const resolvedThirdColor = thirdColor ?? themeColors.thirdColor
+  const resolvedFourthColor = fourthColor ?? themeColors.fourthColor
+  const resolvedFifthColor = fifthColor ?? themeColors.fifthColor
+  const resolvedPointerColor = pointerColor ?? themeColors.pointerColor
+
   useEffect(() => {
     document.body.style.setProperty(
       '--gradient-background-start',
-      gradientBackgroundStart
+      resolvedGradientBackgroundStart
     )
     document.body.style.setProperty(
       '--gradient-background-end',
-      gradientBackgroundEnd
+      resolvedGradientBackgroundEnd
     )
-    document.body.style.setProperty('--first-color', firstColor)
-    document.body.style.setProperty('--second-color', secondColor)
-    document.body.style.setProperty('--third-color', thirdColor)
-    document.body.style.setProperty('--fourth-color', fourthColor)
-    document.body.style.setProperty('--fifth-color', fifthColor)
-    document.body.style.setProperty('--pointer-color', pointerColor)
+    document.body.style.setProperty('--first-color', resolvedFirstColor)
+    document.body.style.setProperty('--second-color', resolvedSecondColor)
+    document.body.style.setProperty('--third-color', resolvedThirdColor)
+    document.body.style.setProperty('--fourth-color', resolvedFourthColor)
+    document.body.style.setProperty('--fifth-color', resolvedFifthColor)
+    document.body.style.setProperty('--pointer-color', resolvedPointerColor)
     document.body.style.setProperty('--size', size)
     document.body.style.setProperty('--blending-value', blendingValue)
-  }, [])
+  }, [
+    blendingValue,
+    resolvedFifthColor,
+    resolvedFirstColor,
+    resolvedFourthColor,
+    resolvedGradientBackgroundEnd,
+    resolvedGradientBackgroundStart,
+    resolvedPointerColor,
+    resolvedSecondColor,
+    resolvedThirdColor,
+    size,
+  ])
 
   useEffect(() => {
     function move() {

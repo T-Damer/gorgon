@@ -12,9 +12,9 @@ export default function MainPage() {
   const setIsDoc = useSetAtom(isDocStore)
 
   return (
-    <TransitionWrapper className="overflow-auto">
+    <TransitionWrapper className="overflow-hidden">
       <Header />
-      <div className="flex h-full flex-col items-center justify-center gap-8 p-2 md:flex-row">
+      <div className="flex h-[calc(100%-4rem)] flex-col items-center justify-center gap-6 overflow-hidden p-2">
         <Card className="text-center text-black">
           <h1 className="font-black text-2xl">
             <Trans>Горгона</Trans>
@@ -27,15 +27,18 @@ export default function MainPage() {
           </p>
         </Card>
 
-        <Card
-          className="items-center justify-center font-bold text-2xl text-black transition-all hover:scale-105 hover:bg-slate-200 active:scale-110"
-          onClick={() => {
-            setIsDoc(true)
-            navigate('/questions')
-          }}
-        >
-          {t`Пройти анкету`}
-        </Card>
+        <div className="flex shrink-0 items-center justify-center">
+          <button
+            type="button"
+            className="relative z-10 inline-flex min-h-14 min-w-56 cursor-pointer items-center justify-center rounded-3xl border border-gray-500 bg-gray-300 px-8 py-4 font-bold text-black shadow transition-colors hover:bg-gray-400"
+            onClick={() => {
+              setIsDoc(true)
+              navigate('/questions')
+            }}
+          >
+            {t`Пройти анкету`}
+          </button>
+        </div>
       </div>
     </TransitionWrapper>
   )

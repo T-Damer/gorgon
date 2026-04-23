@@ -3,6 +3,7 @@
 
 @theme {
   --color-accent: #fd62c7;
+  --color-answer-selected: #bd3a3d;
   --color-selection: #efc9f7;
 
   --font-sans: "Nunito", sans-serif;
@@ -37,10 +38,6 @@ a:hover {
 
 a[target="_blank"]:after {
   content: " ↗";
-}
-
-span {
-  text-decoration: underline wavy transparent;
 }
 
 ::selection {

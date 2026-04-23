@@ -4,6 +4,10 @@ import { useAtom } from 'jotai'
 import { useEffect } from 'react'
 
 const availableLanguage = ['ru', 'en'] as const
+const languageFlags: Record<(typeof availableLanguage)[number], string> = {
+  ru: '🇷🇺',
+  en: '🇬🇧',
+}
 
 export default function LanguagePicker() {
   const { i18n: t } = useLingui()
@@ -24,13 +28,16 @@ export default function LanguagePicker() {
     return availableLanguage[nextIndex]
   }
 
+  const currentFlag = languageFlags[user.language]
+
   return (
     <button
+      type="button"
       onClick={() => toggleLanguage(nextLang())}
-      className="btn rounded-full font-medium text-sm"
+      className="relative z-20 size-11 min-h-11 min-w-11 shrink-0 text-xl drop-shadow-sm"
       aria-label={`Switch language to ${nextLang()}`}
     >
-      {user.language.toUpperCase()}
+      <span aria-hidden="true">{currentFlag}</span>
     </button>
   )
 }

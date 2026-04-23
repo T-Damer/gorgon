@@ -11,7 +11,7 @@ export default function Card({
     <div
       {...rest}
       className={cn(
-        'flex h-64 w-80 cursor-pointer flex-col gap-4 rounded-md bg-white p-4 drop-shadow-2xl ',
+        'flex h-64 w-80 flex-col gap-4 rounded-md bg-white p-4 drop-shadow-2xl ',
         className
       )}
     >

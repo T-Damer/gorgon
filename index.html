@@ -58,10 +58,50 @@
       media="(prefers-color-scheme: light)"
     />
 
+  <!-- Yandex.Metrica counter -->
+  <script type="text/javascript">
+    ;(function (m, e, t, r, i, k, a) {
+      m[i] =
+        m[i] ||
+        function () {
+          ;(m[i].a = m[i].a || []).push(arguments)
+        }
+      m[i].l = 1 * new Date()
+      for (let j = 0; j < document.scripts.length; j += 1) {
+        if (document.scripts[j].src === r) {
+          return
+        }
+      }
+      k = e.createElement(t)
+      a = e.getElementsByTagName(t)[0]
+      k.async = 1
+      k.src = r
+      a.parentNode.insertBefore(k, a)
+    })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=108475043', 'ym')
+
+    ym(108475043, 'init', {
+      webvisor: true,
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+    })
+  </script>
+  <!-- /Yandex.Metrica counter -->
   </head>
   <body>
     <noscript>Please, turn on JavaScript to see this page.</noscript>
     <div id="root" />
     <script type="module" src="/src/index.tsx"></script>
+  <!-- Yandex.Metrica noscript -->
+  <noscript>
+    <div>
+      <img
+        src="https://mc.yandex.ru/watch/108475043"
+        style="position: absolute; left: -9999px"
+        alt=""
+      />
+    </div>
+  </noscript>
+  <!-- /Yandex.Metrica noscript -->
   </body>
 </html>

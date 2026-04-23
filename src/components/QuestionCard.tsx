@@ -20,7 +20,7 @@ export default function QuestionCard({
   isDoc,
 }: QuestionCardProps) {
   return (
-    <div className="flex h-full flex-col justify-between gap-4">
+    <div className="flex min-h-full flex-col justify-between gap-4">
       <div className="flex items-start justify-between">
         <div className="flex flex-col gap-2 leading-tight">
           <h2 className="font-bold text-2xl text-black leading-tight">
@@ -46,10 +46,10 @@ export default function QuestionCard({
           <button
             key={key}
             className={cn(
-              'w-full cursor-pointer rounded-lg p-2 text-black leading-tight transition-colors hover:bg-slate-400',
+              'w-full cursor-pointer rounded-lg p-2 leading-tight transition-colors',
               selectedAnswerId === Number(key)
-                ? 'bg-slate-500'
-                : 'bg-slate-300',
+                ? 'bg-answer-selected text-white hover:bg-answer-selected/90'
+                : 'bg-slate-300 text-black hover:bg-slate-400',
               selectedAnswerId === Number(key) ? 'text-white' : 'text-black'
             )}
             onClick={() => onClick(Number(key))}

@@ -52,7 +52,7 @@ export default function QuestionSwiper() {
   return (
     <Swiper
       ref={swiperRef}
-      className="h-124 w-88 sm:w-96"
+      className="h-[34rem] max-h-full w-88 sm:h-[36rem] sm:w-96"
       modules={[EffectCards, A11y, Controller]}
       onReachEnd={() => navigate('/result')}
       effect="cards"
@@ -62,7 +62,10 @@ export default function QuestionSwiper() {
       allowSlidePrev={true}
     >
       {questions.map((question, index) => (
-        <SwiperSlide key={index} className="w-full rounded-md bg-white p-8">
+        <SwiperSlide
+          key={index}
+          className="flex h-full w-full flex-col overflow-y-auto rounded-md bg-white p-8"
+        >
           <QuestionCard
             selectedAnswerId={
               atom.find((a) => a.questionId === index)?.answerId
